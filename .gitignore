@@ -4,6 +4,9 @@ hello
 ll_equal
 ll_cycle
 int_hello
+program
+programa
+interactive_hello
 
 # Prerequisites
 *.d

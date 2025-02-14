@@ -1,48 +1,50 @@
 #include <stdio.h>
 
-/* Only change any of these 4 values */
+// Cambiar estos 4 valores
 #define V0 0
 #define V1 -1
 #define V2 0
 #define V3 0
 
-// DO NOT EDIT BELOW THIS LINE
+// No editar a partir de aquí
 
 #ifndef TEST
 int main(void) {
   int a;
   char *s;
 
-  /* This is a print statement. Notice the little 'f' at the end!
-  It might be worthwhile to look up how printf works for your future
-  debugging needs... */
-  printf("Berkeley eccentrics:\n====================\n");
+  /**
+    Esto es un print statement. Noten la 'f' al final!
+    Puede ser útil investigar cómo funciona printf para futuras
+    necesidades de debugging...
+  */
+  printf("Galileo eccentrics:\n====================\n");
 
-  /* for loop */
+  /* Ciclo for */
   for (a=0; a<V0; a++) {
-    printf("Happy ");
+    printf("UG ");
   }
   printf("\n");
 
-  /* switch statement */
+  /* Switch */
   switch (V1) {
-    case 0:   printf("Yoshua\n");
-    case 1:   printf("Triangle Man\n");     break;
-    case 2:   printf("Chinese Erhu Guy\n");
-    case 3:   printf("Yoshua\n");           break;
-    case 4:   printf("Dr. Jokemon\n");      break;
-    case 5:   printf("Hat Lady\n");
-    default:  printf("I don't know these people!\n");
+    case 0:   printf("Andres\n");
+    case 1:   printf("Darth Vader\n");     break;
+    case 2:   printf("Walter White\n");
+    case 3:   printf("Andres\n");           break;
+    case 4:   printf("Ragnar\n");      break;
+    case 5:   printf("Obama\n");
+    default:  printf("No conozco a estas personas!\n");
   }
 
-  /* ternary operator */
-  s = (V3==3) ? "Go" : "Boo";
+  /* Operador ternario, se parece a Java no ? */
+  s = (V3==3) ? "Vamos" : "No";
 
-  /* if statement */
+  /* If */
   if (V2) {
-    printf("\n%s BEARS!\n", s);
+    printf("\n%s clase CC3AN!\n", s);
   } else  {
-    printf("\n%s CARDINAL!\n", s);
+    printf("\n%s funciona!\n", s);
   }
 
   return 0;

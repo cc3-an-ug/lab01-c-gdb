@@ -19,7 +19,7 @@ int ll_equal(const node* a, const node* b) {
    There are two tests. The second one is by default
    buggy. Please find the error and fix it! */
 #ifndef TEST
-int main(int argc, char** argv) {
+int main(void) {
   int i;
   node nodes[10];
 
