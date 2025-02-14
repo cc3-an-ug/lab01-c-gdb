@@ -7,6 +7,10 @@ int_hello
 program
 programa
 interactive_hello
+test_eccentric
+test_ll_equal
+test_ll_cycle
+
 
 # Prerequisites
 *.d
